@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: gainsboro;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(94, 93, 93);
+            padding: 5px;
+            box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.534);
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: blanchedalmond;
+            font-weight: bolder;
+            margin: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: crimson;
+            
+            
+        }
+        main{
+            background-color: honeydew;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+        article{
+            background-color: rgb(243, 243, 61);
+            padding: 10px;
+            
+        }
+        article > aside{
+            background-color: mediumslateblue;
+        }
+        footer{
+            background-color: khaki;
+            color: rgb(17, 17, 17);
+            padding: 4px;
+            margin: 0px;
+            text-align: center;
+            font-weight: bolder;
+        }
+        footer >p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            
+                <a href="https://www.instagram.com/aljavi07/">instagram</a>
+                <a href="https://www.linkedin.com/in/aljavi-becerra-1a735b1a2/">linkedin</a>
+            
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Ciclismo Futbol Internacional</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>criando um site com artigos</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, illo.</p>
+                <aside>artigo escrito por: Aljavi Becerra</aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Aljavi Becerra</p>
+    </footer>
+</body>
+</html>
